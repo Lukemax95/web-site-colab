@@ -1,0 +1,4 @@
+4 modelli di auto, ciascuno con la propria pagina dedicata
+template sulla riga di quello Ferrari.
+
+Possibili aggiunte di altre voci sotto l'elenco delle auto.
