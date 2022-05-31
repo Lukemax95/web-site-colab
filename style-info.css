@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'FontFerrari';
+  src:  url('Ferrari-SansRegular.woff2') format('woff2');
+}
+
+body {
+font-family: 'FontFerrari';
+}
+
+.titoloinfo {
+  text-align: center;
+}
+
+.sottotitoloinfo {
+  text-align: center;
+}
+
+.parinfo {
+  text-align: center;
+}
+
+.testoinfo {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.form {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
