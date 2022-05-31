@@ -239,3 +239,43 @@ Aggiunta Filippo
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*
+
+Aggiunta Pier
+
+*/
+
+.assistenza {
+  text-align: center;
+  background-color: white;
+  color: black;
+
+.dicitura {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.linkmap {
+  text-align: left;
+  background-color: white;
+  color: rgb(128, 0, 128);
+}
+
+.elettrico {
+  background-color: white;
+  color: black;
+}
+
+.meccanica {
+  background-color: white;
+  color: black;
+}
+
+.utility {
+  font.size: 50px;
+  background-color: black;
+  color: rgb(0, 128, 128);
+}
+
