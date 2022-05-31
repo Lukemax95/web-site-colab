@@ -1,0 +1,45 @@
+/*Barra di navigazione*/
+
+li {
+    display: inline;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.navbar {
+    /*eliminazione punti marrgine e padding ddalla lista puntata*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    top: 1; 
+    width: 100%; /*larghezza barra di navigazione*/
+    background-color: rgb(0, 0, 0); /*colore barra di navigazione*/
+    }
+
+h1 h2 {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    }
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+p {
+    text-align: center;
+    padding: 50px 20px;
+    }
+
