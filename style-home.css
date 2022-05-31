@@ -114,3 +114,43 @@ CSS aggiunta Luca
 	color: black;
 	font-family: 'FontFerrariMedium';
 }
+
+/* 
+
+Aggiunta Roberta
+
+*/
+
+.titoloinfo {
+    text-align: center;
+  }
+  
+  .sottotitoloinfo {
+    text-align: center;
+  }
+  
+  .parinfo {
+    text-align: center;
+  }
+  
+  .testoinfo {
+    text-align: center;
+  }
+  
+  .info {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .form {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+  }
+  
