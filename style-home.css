@@ -1,45 +1,57 @@
-/*Barra di navigazione*/
+/*Documento css WEB-SITE-COLAB*/
 
-li {
-    display: inline;
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+/*dichiarazione font utilizzato*/
+@font-face {
+        font-family: 'FontFerrari';
+        src:  url('Ferrari-SansRegular.woff2') format('woff2');
+      }
+
+body {
+    font-family: 'FontFerrari';
     }
 
+/*Barra di navigazione*/
 .navbar {
-    /*eliminazione punti marrgine e padding ddalla lista puntata*/
+    /*eliminazione punti, marrgine e padding dalla lista puntata*/
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 
     overflow: hidden;
     top: 1; 
     width: 100%; /*larghezza barra di navigazione*/
     background-color: rgb(0, 0, 0); /*colore barra di navigazione*/
+
+    display: inline; /*visualizza orizzontalmente gli elementi della lista*/
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 50px 20px;
     }
 
-h1 h2 {
+.heading {
+    text-align: center;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
     }
 
-footer {
+.phome {
+    text-align: center;
+    padding: 50px 20px;
+        }
+    
+
+.footer {
     text-align: center;
     padding: 3px;
     background-color: rgb(0, 0, 0);
     color: white;
     }
 
-h1 {text-align: center;}
-h2 {text-align: center;}
 
-p {
-    text-align: center;
-    padding: 50px 20px;
-    }
+
 
