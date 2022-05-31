@@ -49,6 +49,37 @@ body {
 	 color: white;
 	 text-decoration: none;
 }
+/*
+
+
+CSS aggiunta Mattia
+
+
+*/
+
+.descrizione, .titolo_cars{
+  text-align: center;
+}
+
+.logo_centrato{
+  display: block;
+  margin: auto;
+
+}
+.video_catalogo{
+  margin: auto;
+}
+
+.tabella_caratteristiche, .titolo_colonna, .dati_colonna{
+margin: auto;
+border: 2px solid #000;
+padding: 3px;
+}
+
+.catalogo_presentazione{
+  display: inline;
+}
+
 
 /*
 
