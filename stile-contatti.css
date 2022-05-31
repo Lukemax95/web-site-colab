@@ -1,7 +1,18 @@
 @font-face {
-	font-family: 'FontFerrari';
-	src:  url('Ferrari-SansRegular.woff2') format('woff2');
+font-family: 'FontFerrari';
+src:  url('Ferrari-SansRegular.woff2') format('woff2');
 }
+
+@font-face {
+font-family: 'FontFerrariMedium';
+src:  url('Ferrari-SansMedium.woff2') format('woff2');
+}
+
+body {
+font-family: 'FontFerrari';
+}
+
+
 .navbar {
 	/*eliminazione punti, marrgine e padding dalla lista puntata*/
 	list-style-type: none;
@@ -18,40 +29,37 @@
 	float: left;
 	display: block;
 	text-align: center;
-	padding: 50px 20px;
-	margin-bottom: 50px
+	padding: 0px 20px;
+}
+
+.link-nav{
+	color: white;
+	text-decoration: none;
+	display:inline;
+	position: relative;
+	top: 50px;
 }
 
 
-body {
-	font-family: 'FontFerrari';
-}
+
+
 
 .titolo{
-
 	font-size: 45px;
 	text-align: center;
-
 }
 
 .testo{
-
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 100px
 }
 
-h3{
 
-	font-size: 30px;
-	text-align: center;
-}
 
 .sedi{
-
 	font-size: 20px;
 	text-align: center;
-
 }
 
 .sedeUS{
@@ -60,7 +68,6 @@ h3{
 	margin: 2%;
 	margin-bottom: 100px
 }
-
 
 .sedeEU{
 	width: 40%;
@@ -78,9 +85,12 @@ h3{
 
 
 .footer {
-	text-align: center;
-	padding: 3px;
-	background-color: #000000;
-	color: #ffffff;
-}
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    }
 
+.footer_text{
+	 color: white;
+	 text-decoration: none;
+}
